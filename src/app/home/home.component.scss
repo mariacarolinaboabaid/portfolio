@@ -125,6 +125,7 @@
         }
         @media(max-width: 500px) {
             gap: 1px;
+            align-items: center;
         }
 
         &-role {
@@ -147,6 +148,7 @@
             }
             @media(max-width: 500px) {
                 margin-bottom: 3px;
+                text-align: center;
             }
         }
 
@@ -165,6 +167,9 @@
             }
             @media(max-width: 500px) {
                 line-height: 23px;
+                text-align: center;
+                padding-left: 10px;
+                padding-right: 10px;
             }
         }
     }

@@ -9,6 +9,11 @@
     padding: 25px 30px;
     box-sizing: border-box;
 
+    @media(max-width: 650px) {
+        padding: 25px 15px;
+        gap: 15px;
+    }
+
     &-title {
         margin: 0px;
         padding: 0px;
@@ -25,9 +30,10 @@
     }
 
     &-contacts {
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         flex-direction: column;
         gap: 25px;
     }
@@ -37,11 +43,18 @@
         height: 56px;
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         gap: 15px;
         border-radius: 15px;
         background-color: #fff;
         border: 1px solid #d0c5e6;
+
+        @media (max-width: 650px) {
+            width: 100%;
+            height: 75px;
+            flex-direction: column;
+            gap: 5px;
+        }
 
         &-text {
             text-decoration: none;
@@ -55,7 +68,7 @@
         }
     }
 
-    &-icon-email { 
+    &-icon-email {
         height: 23px;
         width: 23px;
 
@@ -91,3 +104,8 @@ a:hover {
     text-decoration: underline;
 }
 
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
