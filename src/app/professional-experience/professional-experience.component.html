@@ -1,0 +1,29 @@
+<div class="container">
+    <h1 class="container-title">
+        {{ title | translate }}
+    </h1>
+    <div class="container-experiences">
+        <div *ngFor="let experience of experiences"
+        class="container-job">
+            <h3 class="container-job-company">
+                {{ experience.id }}
+            </h3>
+            <p class="container-job-role">
+                {{ experience.role | translate }}
+            </p>
+            <p class="container-job-period">
+                {{ experience.period | translate }}
+            </p>
+            <p class="container-job-company-info">
+                {{ experience.companyInfo | translate }}
+            </p>
+            <div 
+            class="container-job-description">
+                <p *ngFor="let des of experience.description"
+                class="container-job-description-text">
+                    {{ des | translate }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

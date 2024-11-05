@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="container-first">
+        <div class="container-profile-picture">
+            <div class="container-profile-picture-img"></div>
+        </div>
+        <div class="container-greeting">
+            <p>{{ greeting | translate }}</p>
+            <p>👋</p>
+        </div>
+    </div>
+    <div class="container-info">
+        <h1 class="container-info-role">
+            {{ role | translate }}
+        </h1>
+        <p class="container-info-other-text">
+            {{ expertise | translate }}
+        </p>
+        <p class="container-info-other-text">
+            {{ learning | translate }}
+        </p>
+    </div> 
+    <div class="container-skills container-skills-hard-skills">
+        <h3 class="container-skills-title">
+            Hard skills
+        </h3>
+        <div class="container-skills-inner">
+            <p *ngFor="let skill of hardSkills"
+            class="container-skills-text">
+                {{ skill | translate }}
+            </p>
+        </div>
+    </div>
+    <div class="container-skills">
+        <h3 class="container-skills-title">
+            Soft skills
+        </h3>
+        <div class="container-skills-inner">
+            <p *ngFor="let skill of softSkills"
+            class="container-skills-text">
+                {{ skill | translate }}
+            </p>
+        </div>
+    </div>
+</div>

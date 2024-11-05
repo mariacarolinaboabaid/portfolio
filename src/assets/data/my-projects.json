@@ -1,0 +1,12 @@
+{
+    "title": "PROJECTS.TITLE",
+    "projects": [
+        {
+            "name": "Math Calculator AI",
+            "description": "PROJECTS.MATH_CALCULATOR_AI.DESCRIPTION",
+            "imagePath": "../../assets/projects-thumbnails/math-calculator-ai.png",
+            "github": "https://github.com/mariacarolinaboabaid/math-calculator-ia",
+            "deploy": "http://3.230.148.112/"
+        }
+    ]
+}

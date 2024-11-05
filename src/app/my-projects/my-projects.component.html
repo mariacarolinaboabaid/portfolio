@@ -1,0 +1,39 @@
+<div class="container">
+    <h1 class="container-title">
+        {{ title | translate }}
+    </h1>
+
+    <div class="container-projects">
+        <div *ngFor="let project of projects" 
+            class="container-project">
+            <img class="container-project-thumbnail" 
+                [src]="project.imagePath"
+                alt="">
+            <div class="container-project-info">
+                <div>
+                    <p class="container-project-info-name">
+                        {{ project.name }}
+                    </p>
+                    <p class="container-project-info-description">
+                        {{ project.description | translate }}
+                    </p>
+                </div>
+                <div class="container-project-info-links">
+                    <a [href]="project.github" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="container-project-info-link">
+                        {{ project.github }} 
+                    </a>
+                    <a *ngIf="project.deploy" 
+                    [href]="project.deploy" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="container-project-info-link">
+                        {{ project.deploy }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

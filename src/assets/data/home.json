@@ -1,0 +1,23 @@
+{
+    "greeting": "HOME.GREETING",
+    "role": "HOME.ROLE",
+    "expertise": "HOME.EXPERTISE",
+    "learning": "HOME.LEARNING",
+    "hard_skills": [
+        "HARD_SKILLS.JS",
+        "HARD_SKILLS.TS",
+        "HARD_SKILLS.ANGULAR",
+        "HARD_SKILLS.NODE",
+        "HARD_SKILLS.NEST",
+        "HARD_SKILLS.CSHARP",
+        "HARD_SKILLS.DOCKER",
+        "HARD_SKILLS.CLOUD",
+        "HARD_SKILLS.AI_INTEGRATION"
+    ],
+    "soft_skills": [
+        "SOFT_SKILLS.COLLABORATION",
+        "SOFT_SKILLS.GOOD_COMMUNICATION",
+        "SOFT_SKILLS.PROACTIVITY",
+        "SOFT_SKILLS.ORGANIZATION"
+    ]
+}

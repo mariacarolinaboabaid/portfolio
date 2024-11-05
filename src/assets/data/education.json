@@ -1,0 +1,35 @@
+{
+    "title": "EDUCATION.TITLE",
+    "formations": [
+        {
+            "id": "senai",
+            "title": "EDUCATION.SENAI.NAME",
+            "period": "EDUCATION.SENAI.PERIOD",
+            "institution": "EDUCATION.SENAI.INSTITUTION"
+        },
+        {
+            "id": "estacio",
+            "title": "EDUCATION.ESTACIO.NAME",
+            "period": "EDUCATION.ESTACIO.PERIOD",
+            "institution": "EDUCATION.ESTACIO.INSTITUTION"
+        },
+        {
+            "id": "freeCodeCamp",
+            "title": "EDUCATION.FREECODECAMP.NAME",
+            "period": "EDUCATION.FREECODECAMP.PERIOD",
+            "institution": "EDUCATION.FREECODECAMP.INSTITUTION"
+        },
+        {
+            "id": "cesusc",
+            "title": "EDUCATION.CESUSC.NAME",
+            "period": "EDUCATION.CESUSC.PERIOD",
+            "institution": "EDUCATION.CESUSC.INSTITUTION"
+        },
+        {
+            "id": "fgv",
+            "title": "EDUCATION.FGV.NAME",
+            "period": "EDUCATION.FGV.PERIOD",
+            "institution": "EDUCATION.FGV.INSTITUTION"
+        }
+    ]
+}

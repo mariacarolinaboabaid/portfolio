@@ -1,0 +1,34 @@
+{
+    "title": "PROFESSIONAL_EXPERIENCE.TITLE",
+    "professionalExperience": [
+        {
+            "id": "ProgramadorTv",
+            "period": "PROFESSIONAL_EXPERIENCE.PROGRAMADOR_TV.PERIOD",
+            "companyInfo": "PROFESSIONAL_EXPERIENCE.PROGRAMADOR_TV.COMPANY_INFO",
+            "role": "PROFESSIONAL_EXPERIENCE.PROGRAMADOR_TV.ROLE",
+            "description": [
+                "PROFESSIONAL_EXPERIENCE.PROGRAMADOR_TV.DESCRIPTION_FIRST",
+                "PROFESSIONAL_EXPERIENCE.PROGRAMADOR_TV.DESCRIPTION_SECOND"
+            ]
+        },
+        {
+            "id": "Techforb (Tech for business)",
+            "period": "PROFESSIONAL_EXPERIENCE.TECHFORB.PERIOD",
+            "companyInfo": "PROFESSIONAL_EXPERIENCE.TECHFORB.COMPANY_INFO",
+            "role": "PROFESSIONAL_EXPERIENCE.TECHFORB.ROLE",
+            "description": [
+                "PROFESSIONAL_EXPERIENCE.TECHFORB.DESCRIPTION"
+            ]
+        },
+        {
+            "id": "LPM Cursos LTDA",
+            "period": "PROFESSIONAL_EXPERIENCE.LPM.PERIOD",
+            "companyInfo": "PROFESSIONAL_EXPERIENCE.LPM.COMPANY_INFO",
+            "role": "PROFESSIONAL_EXPERIENCE.LPM.ROLE",
+            "description": [
+                "PROFESSIONAL_EXPERIENCE.LPM.DESCRIPTION_FIRST",
+                "PROFESSIONAL_EXPERIENCE.LPM.DESCRIPTION_SECOND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "navLinks": [
+        {
+            "link": "SIDENAV.HOME",
+            "route": "/home"
+        },
+        {
+            "link": "SIDENAV.PROFESSIONAL_EXPERIENCE",
+            "route": "/professional-experience"
+        },
+        {
+            "link": "SIDENAV.EDUCATION",
+            "route": "/education"
+        },
+        {
+            "link": "SIDENAV.MY_PROJECTS",
+            "route": "/my-projects"
+        },
+        {
+            "link": "SIDENAV.CONTACT",
+            "route": "/contact"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "SIDENAV": {
+        "HOME": "Home",
+        "ABOUT_ME": "Sobre mim",
+        "PROFESSIONAL_EXPERIENCE": "Experiência profissional",
+        "EDUCATION": "Educação",
+        "MY_PROJECTS": "Meus projetos",
+        "CONTACT": "Contato"
+    },
+    "HOME": {
+        "GREETING": "Olá, sou Maria Carolina",
+        "ROLE": "Desenvolvedora Full Stack apaixonada por JavaScript",
+        "EXPERTISE": "Experiente em frameworks como Angular, Node.js e NestJS",
+        "LEARNING": "Atualmente, estou expandindo minhas habilidades com React e Next.js",
+        "BUTTON_ABOUT_ME": "Clique aqui para saber mais sobre mim"
+    },
+    "HARD_SKILLS": {
+        "JS": "JavaScript",
+        "TS": "TypeScript",
+        "ANGULAR": "Angular",
+        "NODE": "Node.js",
+        "NEST": "NestJS",
+        "CSHARP": "C#",
+        "DOCKER": "Docker",
+        "CLOUD": "Cloud",
+        "AI_INTEGRATION": "Integração com Inteligências Artificiais"
+    },
+    "SOFT_SKILLS": {
+        "COLLABORATION": "Colaboração",
+        "GOOD_COMMUNICATION": "Boa comunicação",
+        "PROACTIVITY": "Proatividade",
+        "ORGANIZATION": "Organização"
+    },
+    "PROFESSIONAL_EXPERIENCE": {
+        "TITLE": "Experiência profissional",
+        "TECHFORB": {
+            "PERIOD": "Outubro de 2023 a setembro de 2024",
+            "COMPANY_INFO": "Empresa de tecnologia norte-americana, com profissionais localizados no Brasil, Chile e Argentina.",
+            "ROLE": "Desenvolvedora Full Stack utilizando as tecnologias Angular, Node.js e NestJS.",
+            "DESCRIPTION": "Criação de sistemas e websites robustos com arquitetura modular. No frontend, utilização de RxJS para manipulação de fluxos de dados assíncronos, além de interceptadores para gerenciamento de requisições HTTP, manipulação dinâmica de temas (variáveis SCSS) para personalização visual e internacionalização de idiomas (i18n). No backend, criação de APIs complexas com gerenciamento de ciclo de vida utilizando Express e NestJS. Processo de autenticação via JWT e validação de dados através de middlewares e validators. Integração entre aplicações frontend e backend."
+        },
+        "PROGRAMADOR_TV": {
+            "PERIOD": "Janeiro de 2024 até o presente momento",
+            "COMPANY_INFO": "Programador.TV é uma empresa especializada no desenvolvimento de produtos sociais e educacionais para programadores.",
+            "ROLE": "Desenvolvedora Full Stack utilizando as tecnlogias NextJS e C# em um ambiente de cloud ",
+            "DESCRIPTION_FIRST": "Desenvolvimento backend focado nos aspectos de qualidade do software, arquitetura e boas práticas de engenharia de software. Principal atuação na refatoração de código despadronizado, visando seguir a organização de código baseado na arquitetura limpa, com a identificação de lógicas complexas e abstração nas camadas da aplicação. Substituição do código antigo pelo novo. Realização de testes unitários  para as funcionalidades refatoradas.",
+            "DESCRIPTION_SECOND": "No frontend, desenvolvimento de um novo projeto que desenvolve funcionalidades que visam facilitar a vida dos programadores com a integração de Inteligência Artifical utilizando NextJS."
+        },
+        "LPM": {
+            "PERIOD": "Novembro de 2022 a setembro de 2023",
+            "COMPANY_INFO": "Empresa holding que desenvolve e opera provedores de conteúdo de eLearning.",
+            "ROLE": "Desenvolvedora Full Stack utilizando as tecnologias HTML, CSS, JavaScript e Node.js.",
+            "DESCRIPTION_FIRST": "Criação, manutenção e atualização de melhorias da plataforma de eLearning LPM Cursos.",
+            "DESCRIPTION_SECOND": "Desenvolvimento da funcionalidade de geração de certificado digital após o aluno concluir o curso escolhido."
+        }
+    },
+    "EDUCATION": {
+        "TITLE": "Educação",
+        "SENAI": {
+            "NAME": "Curso Profissionalizante em Desenvolvimento Full Stack",
+            "PERIOD": "Janeiro de 2023 a novembro de 2023",
+            "INSTITUTION": "SENAI/SC"
+        },
+        "CESUSC": {
+            "NAME": "Graduação em Direito",
+            "PERIOD": "Janeiro de 2015 a novembro de 2019",
+            "INSTITUTION": "CESUSC"
+        },
+        "ESTACIO": {
+            "NAME": "Graduação em Desenvolvimento Full Stack ",
+            "PERIOD": "Janeiro de 2022 a novembro 2024",
+            "INSTITUTION": "Estácio"
+        },
+        "FGV": {
+            "NAME": "Pós-graduação em Direito Empresarial",
+            "PERIOD": "Abril de 2021 a abril de 2022",
+            "INSTITUTION": "Fundação Getúlio Vargas"
+        },
+        "FREECODECAMP": {
+            "NAME": "Scientific Computing in Python",
+            "PERIOD": "300h",
+            "INSTITUTION": "FreeCodeCamp"
+        }
+    },
+    "PROJECTS": {
+        "TITLE": "Meus projetos",
+        "MATH_CALCULATOR_AI": {
+            "DESCRIPTION": "Projeto integrado ao Google AI Studio, que retorna o resultado de uma expressão matemática solicitada pelo usuário. Contém uma imagem no DockerHub e está implantado no Amazon ECS (Elastic Container Service), que gerencia contêineres Docker e realiza o deploy."
+        }
+    },
+    "CONTACT": "Contato"
+}

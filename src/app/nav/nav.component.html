@@ -1,0 +1,50 @@
+<nav class="nav">
+    <p (click)="redirectToHome()" class="nav-name">
+        MARIA CAROLINA BOABAID
+    </p>
+    <ul class="nav-list">
+        <li *ngFor="let navLink of navLinks" class="nav-list-item"
+            [ngClass]="{'nav-list-item-contact': navLink.route === '/contact'}">
+            <a class="nav-list-item-link" [ngClass]="{'nav-list-item-contact-link': navLink.route === '/contact'}"
+                [routerLink]="navLink.route">
+                {{ navLink.link | translate }}
+            </a>
+        </li>
+        <select class="nav-button-lang" (change)="changeLanguage($event)">
+            <option value="pt">PT</option>
+            <option value="en">EN</option>
+        </select>
+    </ul>
+</nav>
+
+<header class="header-mobile">
+    <p (click)="redirectToHome()" class="nav-name">
+        MARIA CAROLINA BOABAID
+    </p>
+    <button (click)="changeShowLinksMobile()"
+    class="header-mobile-button">
+        <img class="header-mobile-button-img"
+        src="../../assets/icons/menu.png" alt="">
+    </button>
+</header>
+
+<ng-container *ngIf="showLinksMobileState">
+    <nav class="nav-mobile">
+        <ul class="nav-mobile-list">
+            <li *ngFor="let navLink of navLinks" class="nav-mobile-list-item">
+                <a class="nav-list-item-link"
+                    (click)="changeShowLinksMobile()"
+                    [routerLink]="navLink.route">
+                    {{ navLink.link | translate }}
+                </a>
+            </li>
+            <select class="nav-mobile-button-lang" (change)="changeLanguageMobile($event)">
+                <option value="pt">PT</option>
+                <option value="en">EN</option>
+            </select>
+        </ul>
+
+    </nav>
+</ng-container>
+
+<div *ngIf="showLinksMobileState" class="backdrop"></div>

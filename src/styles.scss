@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/fonts/Poppins.scss";
+@import "./assets/fonts/Inter.scss";
+@import "./assets/fonts/Montserrat.scss";
+@import "./assets/fonts/Nunito.scss";
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}

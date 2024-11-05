@@ -1,0 +1,25 @@
+<div class="container">
+    <h1 class="container-title">
+        {{ title | translate }}
+    </h1>
+    <div class="container-certifications">
+        <div *ngFor="let formation of formations"
+        class="container-certificate">
+            <div class="container-certificate-icon">
+                <img class="container-certificate-icon-img"
+                src="../../assets/icons/certificate.png" alt="">
+            </div>
+            <div class="container-certificate-info">
+                <p class="container-certificate-info-course">
+                    {{ formation.title | translate }}
+                </p>
+                <p class="container-certificate-info-other-text">
+                    {{ formation.institution | translate }}
+                </p>
+                <p class="container-certificate-info-other-text">
+                    {{ formation.period | translate }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

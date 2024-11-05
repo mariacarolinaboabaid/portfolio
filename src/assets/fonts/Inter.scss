@@ -1,0 +1,5 @@
+/* In case we have a variable font in the font family, we only the variable one, because it changes its form automatically */
+@font-face {
+    font-family: 'Inter';
+    src: url("./Inter/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
