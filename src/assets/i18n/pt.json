@@ -10,13 +10,14 @@
     "HOME": {
         "GREETING": "Olá, sou Maria Carolina",
         "ROLE": "Desenvolvedora Full Stack apaixonada por JavaScript",
-        "EXPERTISE": "Experiente em frameworks como Angular, Node.js e NestJS",
-        "LEARNING": "Atualmente, estou expandindo minhas habilidades com React e Next.js",
+        "EXPERTISE": "Experiente em frameworks como Angular, React, Node.js e NestJS",
+        "LEARNING": "Atualmente, estou expandindo minhas habilidades com Next.js",
         "BUTTON_ABOUT_ME": "Clique aqui para saber mais sobre mim"
     },
     "HARD_SKILLS": {
         "JS": "JavaScript",
         "TS": "TypeScript",
+        "REACT": "React",
         "ANGULAR": "Angular",
         "NODE": "Node.js",
         "NEST": "NestJS",
@@ -42,9 +43,9 @@
         "PROGRAMADOR_TV": {
             "PERIOD": "Janeiro de 2024 até o presente momento",
             "COMPANY_INFO": "Programador.TV é uma empresa especializada no desenvolvimento de produtos sociais e educacionais para programadores.",
-            "ROLE": "Desenvolvedora Full Stack utilizando as tecnlogias NextJS e C# em um ambiente de cloud ",
+            "ROLE": "Desenvolvedora Full Stack utilizando as tecnlogias React, Next.js, Node.js e C# em um ambiente de cloud ",
             "DESCRIPTION_FIRST": "Desenvolvimento backend focado nos aspectos de qualidade do software, arquitetura e boas práticas de engenharia de software. Principal atuação na refatoração de código despadronizado, visando seguir a organização de código baseado na arquitetura limpa, com a identificação de lógicas complexas e abstração nas camadas da aplicação. Substituição do código antigo pelo novo. Realização de testes unitários  para as funcionalidades refatoradas.",
-            "DESCRIPTION_SECOND": "No frontend, desenvolvimento de um novo projeto que desenvolve funcionalidades que visam facilitar a vida dos programadores com a integração de Inteligência Artifical utilizando NextJS."
+            "DESCRIPTION_SECOND": "No frontend,  desenvolvimento de um novo projeto que desenvolve funcionalidades que visam facilitar a vida dos programadores com a integração de Inteligência Artifical utilizando React e NextJS."
         },
         "LPM": {
             "PERIOD": "Novembro de 2022 a setembro de 2023",

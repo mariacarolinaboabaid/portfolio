@@ -10,8 +10,8 @@
     "HOME": {
         "GREETING": "Hi, I'm Maria Carolina",
         "ROLE": "Full Stack Developer passionate about JavaScript",
-        "EXPERTISE": "Expertise in frameworks such as Angular, Node.js, and NestJS",
-        "LEARNING": "Currently expanding my skills with React and Next.js",
+        "EXPERTISE": "Expertise in frameworks such as Angular, React, Node.js, and NestJS",
+        "LEARNING": "Currently expanding my skills with Next.js",
         "BUTTON_ABOUT_ME": "Click here to find out more about me"
     },
     "SOFT_SKILLS": {
@@ -23,6 +23,7 @@
     "HARD_SKILLS": {
         "JS": "JavaScript",
         "TS": "TypeScript",
+        "REACT": "React",
         "ANGULAR": "Angular",
         "NODE": "Node.js",
         "NEST": "NestJS",
@@ -42,9 +43,9 @@
         "PROGRAMADOR_TV": {
             "PERIOD": "January 2024 to present",
             "COMPANY_INFO": "Programador.TV is a company specialized in developing social and educational products for programmers.",
-            "ROLE": "Full Stack Developer using Next.js and C# technologies in a cloud environment.",
+            "ROLE": "Full Stack Developer using React, Next.js, Node.js and C# technologies in a cloud environment.",
             "DESCRIPTION_FIRST": "Backend development focused on software quality aspects, architecture, and best software engineering practices. Main focus on refactoring non-standardized code, aiming to follow code organization based on clean architecture, identifying complex logic and abstraction in application layers. Replacement of old code with new code. Conducting unit tests for the refactored functionalities.",
-            "DESCRIPTION_SECOND": "In the frontend, development of a new project that implements features aimed at making programmers' lives easier with the integration of Artificial Intelligence using Next.js."
+            "DESCRIPTION_SECOND": "In the frontend, development of a new project that implements features aimed at making programmers' lives easier with the integration of Artificial Intelligence using React and Next.js."
         },
         "LPM": {
             "PERIOD": "November 2022 to September 2023",
